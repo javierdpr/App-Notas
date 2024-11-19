@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Aplicacion Notas</title>
+</head>
+<body>
+    <!--hacer lodel drag and droop-->
+    <header>
+        <h1>NOTAS</h1>
+    </header>
+    <main>
+        <section class="create-note">
+            <h2>Introduce nuevas notas</h2>
+            <form>
+                <div class="enter">
+                    <label for="title">Titulo</label>
+                    <input id="title" type="text" required>
+                </div>
+                <div class="enter">
+                    <label for="body">Descripción</label>
+                    <input id="body" type="text" required>
+                </div>
+                <div>
+                    <button>Añadir nota</button>
+                </div>
+                </form>
+        </section>
+        <hr>
+        <section class="note-display">
+            <h2>Tus Notas</h2>
+            <div id="content">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="content-footer">
+            <p>hecho por javier de prados ruedas</p>
+        </div>
+        
+    </footer>
+    <script src="./script/index.js"></script>
+    <script src="./script/dragDroop.js"></script>
+</body>
+</html>
